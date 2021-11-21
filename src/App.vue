@@ -5,9 +5,9 @@
     </div>
     <div id="nav">
       <router-link :to="{ name: 'EventList' }">Event</router-link> |
-      <router-link :to="{ name: 'About' }">About</router-link>
+      <router-link :to="{ name: 'About' }">About</router-link>|
+      <router-link :to="{ name: 'Form' }">Edit Event</router-link>
     </div>
-
     <router-view />
   </div>
 </template>

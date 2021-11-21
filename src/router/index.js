@@ -10,6 +10,7 @@ import NetworkError from "../views/NetworkError.vue";
 import NProgress from "nprogress";
 import EventService from "@/services/EventService.js";
 import GStore from "@/store";
+import Form from "../views/Form.vue";
 
 const routes = [
   {
@@ -68,6 +69,11 @@ const routes = [
     name: "About",
     component: About,
     alias: "/about",
+  },
+  {
+    path: "/editevent",
+    name: "Form",
+    component: Form,
   },
   {
     path: "/:catchAll(.*)",
